@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- importer le fichier CSS -->
+    <link rel="stylsheet" href="./styles.css">
+
+    <!-- importer le font -->
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Black+Ops+One&family=Creepster&family=La+Belle+Aurore&family=MedievalSharp&family=Orbitron&family=Rye&display=swap" 
+    rel="stylesheet">
+        
+
+</head>
+
+<body>
+<!-- 
+    -------------------------------------------------
+        Module 1 : Introduction à HTML : Partie 1    
+    -------------------------------------------------
+-->
+
+<!-- 
+    1-Les Balises HTML:
+    -----------------
+    <h1>I code, therefor i am</h1>
+    <h3>Decarte</h3>
+    <p>Hello world</p>
+-->
+
+<!-- 
+    2-Rediger un article de presse (Voir image "article de presse") :
+    -----------------------------   
+    <h1>Humans have reached Mars</h1>
+    <h3> 
+        The Starship rocket successfully landed on the red planet this morning.
+    </h3>
+    <p>    
+        After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans
+        have set foot on a planet other than Earth.
+    </p>
+ -->
+
+ <!-- 
+    3-La Balise <img> : Ajouter une image "mars.jpg"
+    -----------------   
+    <h1>Humans have reached Mars</h1>
+    <h3> 
+        The Starship rocket successfully landed on the red planet this morning.
+    </h3>
+    <p>    
+        After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans
+        have set foot on a planet other than Earth.
+    </p>
+    <img src="./mars.jpg" width="100%">
+ -->
+
+<!--
+    Défi:
+    -----
+    Ajouter une deuxième image à notre article. En trouver une via Google et la placer sous l’élément <h1> mais au-dessus de l’élément <h3> . 
+    N’oubliez pas d’utiliser l’attribut width pour rendre l’image aussi large que les autres éléments.
+-->
+<!-- 
+    <h1>Humans have reached Mars</h1>
+    <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
+    <h3> 
+        The Starship rocket successfully landed on the red planet this morning.
+    </h3>
+    <p>    
+        After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans
+        have set foot on a planet other than Earth.
+    </p>
+    <img src="./mars.jpg" width="100%">
+ -->
+
+ <!--
+    4-L'emboîtement ou le Nesting (Voir image "image-HTML Document Tree"):
+    -----------------------------
+    <div>
+        <div>
+            <h1>Humans have reached Mars</h1>
+            <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_focal-760x428,f_auto,q_auto:best/mpx/2704722219/2021_10/MarsAFP_9PG3DY-n3pk3j.jpg" width="100%">
+
+            <h3> 
+                The Starship rocket successfully landed on the red planet this morning.
+            </h3>
+            <p>    
+                After a 115 days long journey, the crew of 12 finally arrived at their destination. This is the first time humans
+                have set foot on a planet other than Earth.
+            </p>
+        </div>
+        <div>
+            <img src="./mars.jpg" width="100%">
+        </div>
+    </div>
+-->
+
+<!--
+    5-La magie en directe:
+    ----------------------
+
+    - Consulter un site de sport par exemple.
+    - Changer le lien d'une image par un autre de google
+    - Constater la différence.
+
+-->
+
+<!--
+    6-Éléments interactifs - Bouton - button:
+    -----------------------------------------
+
+    Défi:
+    -----
+
+    Créez la mise en page d’inscription à partir du design fourni. (Voir image "bouton") 
+
+    Bienvenue !
+    Vous avez obtenu l’accès à la plateforme. 
+    Veuillez créer un compte.
+    Sign up!
+-->
+<!--
+<div>
+    <h1>Bienvenue !</h1>
+    <p>Vous avez obtenu l’accès à la plateforme. 
+    Veuillez créer un compte.</p>
+    <button>Sign up!</button>
+</div>
+-->
+
+<!--
+    7-Éléments interactifs - balises de saisie -input : (Voir image "input")
+    ---------------------------------------------------
+-->
+<!--
+    <div>
+        <h1>Bienvenue !</h1>
+        <p>Vous avez obtenu l’accès à la plateforme. 
+        Veuillez créer un compte.</p>
+        <input type="text" placeholder="User Name"><button>Sign up!</button>
+        <input type="password" placeholder="Password0">
+    </div>
+-->
+
+<!--
+    Défi :  (Voir image "input-file") 
+    ------
+
+    Nous voulons que nos utilisateurs aient des photos de profil, 
+    alors ajoutez un champ d’entrée HTML qui leur permet de télécharger des fichiers image.
+-->
+<!--
+    <div>
+        <label for="avatar">Choisir une image de profil :</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+    </div>
+-->
+
+<!--
+    8-Introduction à HTML 1 - Exercice pratique :
+    ---------------------------------------------------
+-->
+
+
+<!-- 
+    -------------------------------------------------
+        Module 1 : Introduction à HTML : Partie 2    
+    -------------------------------------------------
+-->
+
+<!--
+    9-Introduction à HTML 2 - Clone Google.com : (Voir image "Google-clone")
+    --------------------------------------------
+-->
+<!--
+Défi : (Voir image "Google-img.png")
+------
+
+Écrivez les quatre balises HTML dont vous avez besoin pour créer un clone de Google.com .
+Astuce : une image, un champ de saisie et deux boutons.
+-->
+<!--
+<div>
+    <div>
+        <img src="./google-img.png">
+    </div>
+    
+    <div>
+        <input type="text">
+    </div>
+
+    <div>
+        <button>Google Shearch</button>
+        <button>I'm Freeling luky</button>
+        <p>We protect your privacy. <a href="blog.html">Learn how</a></p>
+    </div>
+</div>
+-->
+
+    <body>
+        <!-- 
+        Challenge 1:
+        Write the HTML for your personal website.
+        -->
+        <img src="per.jpg">
+        <h1>Hi, my name is Per</h1>
+        <h2>Fun facts about me:</h2>
+        <ul>
+            <li>36 years old</li>
+            <li>Live in Norway</li>
+            <li>Sing in a choir</li>
+        </ul>
+        <p>Please connect with me on <a href="https://www.linkedin.com/in/per-harald-borgen/" taget="_blank">LinkedIn here.</a></p>
+        <input type="text" placeholder="Enter email...">
+        <button>Join newsletter</button>
+
+<script src="index.js"></script>
+</body>
+
+</html>
